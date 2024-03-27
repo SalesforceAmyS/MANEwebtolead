@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel= "stylesheet" href="styles.css">
+<script src=""script.js></script>
+
+<h1>MANE Volunteer Application</h1>
+
+
+</head>
+<body>
+
+
+
+
+
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D410000005Svy" onsubmit="beforeSubmit()" method="POST">
+    
+    <input type=hidden name="oid" value="00D410000005Svy">
+    <input type=hidden name="retURL" value="http://">
+   
+    <label for="first_name">First Name</label><input required  id="first_name" name="first_name" size="20" type="text" />
+    
+    <label for="last_name">Last Name</label><input required id="last_name" name="last_name" size="20" type="text" />
+
+    <label for="street">Address</label><textarea name="street"></textarea>
+    
+    <label for="city">City</label><input  id="city" name="city" size="20" type="text" />
+    
+    <label for="state">State</label><input  id="state" name="state" size="20" type="text" />
+
+    <label for="zip">Zip</label><input id="zip" name="zip" size="20" type="text" />
+
+    <label for="email">Email</label><input  id="email" name="email" size="20" type="text" />
+    
+    <label for="phone">Phone</label><input   id="phone" name="phone" size="20" type="text" />
+    
+    <label for="mobile">Mobile</label><input  id="mobile" name="mobile" size="20" type="text" />
+    
+    
+    
+   <label> DOB:<span class="dateInput dateOnlyInput"><input  id="00NKc0000012lmt" name="00NKc0000012lmt" size="12" type="text" /></span></label>
+   
+   <label>Is the volunteer under 18?:<select  id="00NKc0000012lmy" name="00NKc0000012lmy" title="Is the volunteer under 18?"><option value="">--None--</option><option value="Yes">Yes</option>
+      <option value="No">No</option>
+      </select></label>
+   
+    
+
+    <label>Parent Name (s) (if volunteer is a minor):<input  id="00NKc0000012lmw" name="00NKc0000012lmw" size="20" type="text" /></label>
+    <label>  
+        Parent Phone (if different from above):
+        <input id="00NKc0000012lmx" name="00NKc0000012lmx" onkeydown="formatPhoneOnEnter(this, event);" size="20" type="text">
+      </label>
+
+    <label>
+        Emergency Contact Name:
+        <input id="00NKc0000012lmu" name="00NKc0000012lmu" size="20" type="text">
+      </label>
+    <label>
+        Emergency Contact Phone:
+        <input id="00NKc0000012lmv" name="00NKc0000012lmv" onkeydown="formatPhoneOnEnter(this, event);" size="20" type="text">
+      </label>                                                                                                                                                                                                                                                                                                           
+    <label>
+        School/Group Association Name (if applicable):
+        <textarea id="00NKc0000012lux" name="00NKc0000012lux" type="text" wrap="soft"></textarea>
+      </label>
+       
+    <label>
+        Name of person in charge of group (if applicable):
+        <textarea id="00NKc0000012lv2" name="00NKc0000012lv2" type="text" wrap="soft"></textarea> 
+      </label>
+
+    <label>
+        Health History: Please list any allergies or conditions that may affect you during the time at which you are volunteering: (Easily fatigued, asthma, allergic to bee stings, any major surgeries or conditions that EMS would need to be notified of in the event of an emergency)
+        <textarea id="00NKc0000012lus" name="00NKc0000012lus" type="text" wrap="soft"></textarea>
+      </label>
+      
+      
+      
+      
+      <label>
+        Are you comfortable around horses?:
+        <select  id="00NKc0000012lok" name="00NKc0000012lok" title="Are you comfortable around horses?">
+          <option value="">--None--</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+          <option value="Somewhat">Somewhat</option>
+          <option value="I&#39;m not sure">I&#39;m not sure</option>
+        </select>
+      </label>     
+      <label>  
+        Do you or have you ever owned horses?:
+        <select  id="00NKc0000012lop" name="00NKc0000012lop" title="Do you or have you owned horse?">
+          <option value="">--None--</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </label>
+<label>
+      If yes to above, for how long?:<input  id="00NKc0000012lou" maxlength="200" name="00NKc0000012lou" size="20" type="text" /></label>
+      
+      <label>
+        Have you ever worked with horses?:
+        <select id="00NKc0000012loz" name="00NKc0000012loz" title="Have you ever worked with horses?">
+          <option value="">--None--</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </label>                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+    
+
+<label>
+            Have you had formal lessons or training in working with horses?:<select  id="00NKc0000012lp9" name="00NKc0000012lp9" title="Formal training in working with horses?"><option value="">--None--</option><option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            </label>
+
+            <label> If yes to above, please list the type and amount of training you have had.:<textarea  id="00NKc0000012lpE" name="00NKc0000012lpE" type="text" wrap="soft"></textarea><br>
+<label>
+            Have you ever worked with people with disabilities?:<select  id="00NKc0000012lpO" name="00NKc0000012lpO" title="Ever worked with disabled people?"><option value="">--None--</option><option value="Yes">Yes</option>
+                <option value="No">No</option>
+                </select>
+                </label>
+
+            <label>
+                If yes to above, in what capacity?:<input  id="00NKc0000012lp4" maxlength="200" name="00NKc0000012lp4" size="20" type="text" /></label>
+<label>
+                Are you comfortable around people with disabilities?:<select  id="00NKc0000012lpJ" name="00NKc0000012lpJ" title="Comfortable with disabled people?"><option value="">--None--</option><option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    <option value="I&#39;m not sure">I&#39;m not sure</option>
+                    </select></label><br>
+                    
+
+                Please describe any special skills, training, or talents that you feel might be helpful to us.:<textarea  id="00NKc0000012lpT" name="00NKc0000012lpT" rows="3" type="text" wrap="soft"></textarea><br>
+                Please tell us why you would like to Volunteer at Mane?:<textarea  id="00NKc0000012ltk" name="00NKc0000012ltk" type="text" wrap="soft"></textarea><br>
+   <label>
+                How did you hear about Mane?:<input id="00NKc0000012ltf"  name="00NKc0000012ltf" size="20" type="text" /></label>
+   
+           
+            <label> 
+              Volunteer Availability: Please select all that apply.<select  id="00N41000002ng07" multiple="multiple" name="00N41000002ng07" title="Volunteer Availability"><option value="Monday Morning">Monday Morning</option>
+                <option value="Monday Afternoon">Monday Afternoon</option>
+                <option value="Tuesday Morning">Tuesday Morning</option>
+                <option value="Tuesday Afternoon">Tuesday Afternoon</option>
+                <option value="Wednesday Morning">Wednesday Morning</option>
+                <option value="Wednesday Afternoon">Wednesday Afternoon</option>
+                <option value="Thursday Morning">Thursday Morning</option>
+                <option value="Thursday Afternoon">Thursday Afternoon</option>
+                <option value="Friday Morning">Friday Morning</option>
+                <option value="Friday Afternoon">Friday Afternoon</option>
+                <option value="Saturday Morning">Saturday Morning</option>
+                <option value="Saturday Afternoon">Saturday Afternoon</option>
+                </select></label>
+                   
+  <label>            
+Area of Interest: Please select all that apply.<select  id="00NKc0000012lu4" multiple="multiple" name="00NKc0000012lu4" title="Area of Interest"><option value="Grooming">Grooming</option>
+  <option value="Tacking">Tacking</option>
+  <option value="Facilities Maintenance">Facilities Maintenance</option>
+  <option value="Barn Chores">Barn Chores</option>
+  <option value="Grounds Maintenance">Grounds Maintenance</option>
+  <option value="Cleaning Offices">Cleaning Offices</option>
+  <option value="Side Walking with Students">Side Walking with Students</option>
+  <option value="Leading a Horse">Leading a Horse</option>
+  <option value="Assisting Students">Assisting Students</option>
+  <option value="Office Work">Office Work</option>
+  <option value="Fund Raising">Fund Raising</option>
+  <option value="Publications">Publications</option>
+  <option value="Public Relations">Public Relations</option>
+  <option value="Photography/Video">Photography/Video</option>
+  <option value="Secretary/Receptionist">Secretary/Receptionist</option>
+  </select></label>
+  
+                                              
+    <input type="submit" name="submit">
+    
+    </form>
+    
+    </body>
+    </html
